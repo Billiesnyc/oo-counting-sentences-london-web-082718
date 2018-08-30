@@ -18,6 +18,6 @@ class String
     counter_array = [ ]
     split_items = ["?", "!", "."]
     counter_array = self.split(Regexp.union(split_items))
-    counter_array
+    counter_array.length
   end
 end
