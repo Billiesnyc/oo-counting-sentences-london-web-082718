@@ -19,6 +19,6 @@ class String
     counter_array = self.split(".")
     counter_array = self.split("!")
     counter_array = self.split("?")
-    counter_array.length
+    counter_array
   end
 end
