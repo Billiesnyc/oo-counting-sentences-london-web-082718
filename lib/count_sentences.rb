@@ -18,7 +18,7 @@ class String
     counter_array = [ ]
     split_items = ["?", "!", "."]
     counter_array = self.split(Regexp.union(split_items))
-    final_array = counter_array.select {|x| x.lenth > 2}
+    final_array = counter_array.select {|x| x.length > 2}
     final_array.length
   end
 end
