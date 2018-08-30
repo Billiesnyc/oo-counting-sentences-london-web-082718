@@ -17,7 +17,7 @@ class String
   def count_sentences
     counter_array = [ ]
     split_items = ["?", "!", "."]
-    counter_array = self.split(/[? . !]/)
+    counter_array = self.split(split_items)
     counter_array
   end
 end
